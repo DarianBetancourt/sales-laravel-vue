@@ -30,7 +30,7 @@
                                         <td>{{newProduct.code}}</td>
                                     </tr>
                                     <tr class="text-left">
-                                        <th scope="row">Referencia</th>
+                                        <th scope="row">Referência</th>
                                         <td>{{newProduct.reference}}</td>
                                     </tr>
                                     <tr class="text-left">
@@ -38,7 +38,7 @@
                                         <td>{{newProduct.name}}</td>
                                     </tr>
                                     <tr class="text-left">
-                                        <th scope="row">Preco</th>
+                                        <th scope="row">Preço</th>
                                         <td>{{newProduct.price}} R$</td>
                                     </tr>
                                     <tr >
@@ -146,7 +146,7 @@ export default {
     name:"home",
     data(){
         return {
-            msg:'Endereco de envio',
+            msg:'Endereço de envio',
             waitingProduct:false,
             searchProduct:{
                 value:"",

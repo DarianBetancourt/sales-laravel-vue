@@ -2,7 +2,7 @@
     <fieldset disabled class="mb-3">
         <form class="form-floating">
             <input v-model="completeAddress" type="text" class="form-control">
-            <label for="floatingInputValue">Endereco</label>
+            <label for="floatingInputValue">Endereço</label>
         </form>              
     </fieldset>
 </template>

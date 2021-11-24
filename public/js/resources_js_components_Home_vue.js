@@ -178,7 +178,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   name: "home",
   data: function data() {
     return {
-      msg: 'Endereco de envio',
+      msg: 'Endereço de envio',
       waitingProduct: false,
       searchProduct: {
         value: "",
@@ -2083,7 +2083,7 @@ var render = function () {
                               _vm._v(" "),
                               _c("tr", { staticClass: "text-left" }, [
                                 _c("th", { attrs: { scope: "row" } }, [
-                                  _vm._v("Referencia"),
+                                  _vm._v("Referência"),
                                 ]),
                                 _vm._v(" "),
                                 _c("td", [
@@ -2101,7 +2101,7 @@ var render = function () {
                               _vm._v(" "),
                               _c("tr", { staticClass: "text-left" }, [
                                 _c("th", { attrs: { scope: "row" } }, [
-                                  _vm._v("Preco"),
+                                  _vm._v("Preço"),
                                 ]),
                                 _vm._v(" "),
                                 _c("td", [
@@ -2540,7 +2540,7 @@ var render = function () {
       }),
       _vm._v(" "),
       _c("label", { attrs: { for: "floatingInputValue" } }, [
-        _vm._v("Endereco"),
+        _vm._v("Endereço"),
       ]),
     ]),
   ])
