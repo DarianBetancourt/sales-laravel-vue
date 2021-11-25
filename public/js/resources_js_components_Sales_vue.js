@@ -244,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.tbody tr > td[data-v-6545489e]{\r\n        font-size: small;\n}\n.title[data-v-6545489e], thead[data-v-6545489e], .tbody tr > th[data-v-6545489e]{\r\n    color:#0d6efd;\n}\n.title[data-v-6545489e]{\r\n    text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);\r\n    font-weight: bold;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.tbody tr > td[data-v-6545489e]{\r\n        font-size: small;\n}\n.title[data-v-6545489e], thead[data-v-6545489e], .tbody tr > th[data-v-6545489e]{\r\n    color:#0d6efd;\n}\n.title[data-v-6545489e]{\r\n    text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);\r\n    font-weight: bold;\n}\n@media only screen and (max-width: 490px) {\ntable[data-v-6545489e]\r\n    {\r\n       font-size: small;\n}\n}\n@media only screen and (max-width: 440px) {\ntable[data-v-6545489e]{\r\n       font-size: x-small;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1754,9 +1754,9 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", { attrs: { scope: "col" } }, [_vm._v(" Data ")]),
         _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v(" Endereco ")]),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v(" Endereço ")]),
         _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v(" Acoes ")]),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v(" Açoes ")]),
       ]),
     ])
   },

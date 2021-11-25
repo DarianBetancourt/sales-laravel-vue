@@ -9,8 +9,8 @@
                 <th scope="col"> Produtos </th>
                 <th scope="col"> Total </th>
                 <th scope="col"> Data </th>
-                <th scope="col"> Endereco </th>
-                <th scope="col"> Acoes </th>
+                <th scope="col"> Endereço </th>
+                <th scope="col"> Açoes </th>
                 </tr>
             </thead>
             <tbody class="tbody">
@@ -92,5 +92,17 @@ export default {
 .title{
     text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);
     font-weight: bold;
+}
+
+@media only screen and (max-width: 490px) {
+    table
+    {
+       font-size: small;
+    }
+}
+@media only screen and (max-width: 440px) {
+    table{
+       font-size: x-small;
+   }
 }
 </style>

@@ -55,11 +55,11 @@ class SaleController extends Controller
 
         if($addressExist === null){
             $address=new Address;
-            $address->cep = $request->address->cep;
-            $address->state = $request->address->state;
-            $address->city = $request->address->city;
-            $address->neighborhood = $request->address->neighborhood;
-            $address->street = $request->address->street;
+            $address->cep = $res['address']['cep'];
+            $address->state = $res['address']['state'];
+            $address->city = $res['address']['city'];
+            $address->neighborhood = $res['address']['neighborhood'];
+            $address->street = $res['address']['street'];
             $address->save();
         }else{
             $address=$addressExist;
