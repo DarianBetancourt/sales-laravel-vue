@@ -20,7 +20,11 @@
     <div id="app">
 
     </div>
-
+    <footer class="d-flex align-items-center py-3 my-4 border-top">
+      <div class="d-flex align-items-center w-100 justify-content-center text-center">
+        <span class="text-muted">© 2021 Darian Betancourt</span>
+      </div>
+    </footer>
     <!-- JavaScript -->
     <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
 
